@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>Login</title>
+</head>
+<style>
+.man{border-radius:20px;
+      box-shadow:0 0 10px 3px black;
+      background:transparent;
+	  width:200px;
+	  }
+.login{
+     border-radius:70px;
+      }
+.lock{width:100px;
+      padding:6px;
+	  }
+.lock:hover{
+       color:white;
+	   width:150px;
+       transition:all 0.6s 0s;
+	   background-color:blue;
+	   border-radius:10px;}	   
+div{
+    padding:150px;
+	text-align:center;
+   }
+body{
+     margin:0;
+	 padding:0;
+	 width:100vw;
+	 height:100vh;
+     background-image:url(map.jpg);
+	 background-position:center;
+	 background-size:cover;
+	 background-repeat:no-repeat;
+     }
+</style>
+<body>
+<form action='chat.html'>
+<div>
+<img class='login'src='login.jpg'><br>
+<h3>Login</h3><br>
+<input class='man'type='email' name='email'placeholder='Enter your Emil ID' required><br><br>
+<input class='man'type='password' name='password'placeholder='Enter your Password' required><br><br>
+<input class='lock'type='submit' value='login'>
+</div>
+</form>
+</body>
+</html>
